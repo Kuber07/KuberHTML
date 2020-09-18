@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <style>
+        .i {
+            padding-left: 100px;
+        }
+
+        div {
+            margin-left: 50px;
+            padding-bottom: 50px;
+            background-color: aquamarine;
+
+        }
+
+        .mydiv {
+            border: 2px outset crimson;
+            width: 70%;
+            margin-left: 80px;
+            padding-left: 80px;
+        }
+
+        h1 {
+            margin-left: 100px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <div class="mydiv">
+        <h2>BASIC DETAILS</h2>
+        <table>
+            <tr>
+                <td><label>Form Number</label></td>
+                <td class="i"><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>Name</label></td>
+                <td class="i"><input type=text></td>
+            </tr>
+            <tr>
+                <td><label>Roll Number</label></td>
+                <td class="i"><input type=text></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td class="i"><label>Male</label>
+                    <input type="radio" value="Male" name="gender">
+                    <label>Female</label>
+                    <input type="radio" value="Female" name="gender"></td>
+            </tr>
+            <tr>
+                <td><label>DOB</label></td>
+                <td class="i"><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>PWD</label></td>
+                <td class="i"><label>Yes</label>
+                    <input type="radio" value="Yes" name="pwd">
+                    <label>No</label>
+                    <input type="radio" value="No" name="pwd">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Category</label>
+                </td>
+                <td class="i"><select id="Category" name="Category">
+                        <option value="general" selected>General</option>
+                        <option value="OBC">OBC</option>
+                        <option value="SC">SC</option>
+                        <option value="other">other</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Address</label></td>
+                <td class="i"><textarea name="message" rows="10" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>PIN code</label></td>
+                <td class="i"><input type="number" name="pin" maxlength="6"></td>
+            </tr>
+            <tr>
+                <td>Phone of student</td>
+                <td class="i"><input type="tel" maxlength="12"></td>
+            </tr>
+            <tr>
+                <td>Phone of guardian</td>
+                <td class="i"><input type="tel" maxlength="12"></td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="mydiv">
+        <h2>ACADEMIC INFORMATION</h2>
+        <table>
+            <tr>
+                <td>
+                    <label>Course</label>
+                </td>
+                <td class="i"><select id="Category" name="Category">
+                        <option value="B.Tech" selected>B.Tech</option>
+                        <option value="B.E">B.E</option>
+                        <option value="BSC/MSC">BSC/MSC</option>
+                        <option value="M.Tech">M.Tech</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Branch</label></td>
+                <td class="i"><input type="text"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Semester</label>
+                </td>
+                <td class="i"><select id="Category" name="Category">
+                        <option value="1st" selected>1st</option>
+                        <option value="2nd">2nd</option>
+                        <option value="3rd">3rd</option>
+                        <option value="4th">4th</option>
+                    </select></td>
+
+            </tr>
+            <tr>
+                <td> <label>All India Rank</label></td>
+                <td class="i"><input type="number"> (2020 JEE Main)</td>
+            </tr>
+            <tr>
+                <td> <label>Category Rank</label></td>
+                <td class="i"><input type="number"> (2020 JEE Main)</td>
+            </tr>
+            <tr>
+                <td> <label>CGPA</label></td>
+                <td class="i"><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label>Backlog</label></td>
+                <td class="i"><label>Yes</label>
+                    <input type="radio" value="Yes" name="pwd">
+                    <label>No</label>
+                    <input type="radio" value="No" name="pwd">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Hostel Accomodation</label></td>
+                <td class="i"><label>Yes</label>
+                    <input type="radio" value="Yes" name="pwd">
+                    <label>No</label>
+                    <input type="radio" value="No" name="pwd">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Name of Hostel</label></td>
+                <td class="i"><input type="text"></td>
+            </tr>
+            <tr>
+                <td> <label>Room Number</label></td>
+                <td class="i"><input type="number"> </td>
+            </tr>
+        </table>
+    </div>
+    <div class="mydiv">
+        <h2>ACCOUNT DETAILS FOR REFUNDING PROCESS</h2>
+        <table>
+            <tr>
+                <td><label>Account Holder Name</label></td>
+                <td class="i"><input type="text"> (As per bank passbook)</td>
+            </tr>
+            <tr>
+                <td> <label>Account Number</label></td>
+                <td class="i"><input type="number"> </td>
+            </tr>
+            <tr>
+                <td> <label>IFSC Code</label></td>
+                <td class="i"><input type="number"> </td>
+            </tr>
+            <tr>
+                <td><label>Bank Name</label></td>
+                <td class="i"><input type="text"> (As per bank passbook)</td>
+            </tr>
+            <tr>
+                <td><label>Bank Branch</label></td>
+                <td class="i"><input type="text"> (As per bank passbook)</td>
+            </tr>
+        </table>
+
+    </div>
+    <script src=""></script>
+</body>
+
+</html>
