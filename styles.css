@@ -1,0 +1,31 @@
+body {
+    background-color: #f0ece3;
+    margin: 0px;
+
+}
+
+h2 {
+    color: #24a19c;
+}
+
+h3 {
+    color: #24a19c
+}
+
+hr {
+    border-color: grey;
+    border-top-style: dotted;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 10%;
+}
+
+div {
+    background-color: #ffc7c7
+}
+
+.mountain {
+    position: relative;
+    left: 100px;
+
+}
