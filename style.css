@@ -13,12 +13,32 @@ img {
 }
 
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.5) rotateY(360deg);
+
+
 }
 
-h1 {
+h1,
+h2 {
     border-bottom: 2px solid pink;
     width: 400px;
     text-align: center;
     border-right: 2px solid orange;
+}
+
+#loading {
+    animation: textclip 1.5s linear infinite;
+}
+
+@keyframes textclip {
+    from {
+        transform: translate(0px, 0px);
+    }
+
+    to {
+        transform: translate(10px, 50%);
+    }
+}
+
+
 }
